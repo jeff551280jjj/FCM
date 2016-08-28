@@ -1,0 +1,32 @@
+﻿This file contains the changes to classes, subs, functions,
+and other methods in this project.
+The second table shows each method's new namespace and/or
+name.
+
+This table shows a list of files that were renamed/split. The
+first column shows the original filename. The second shows the
+new file(s) that the old file was renamed/split to.
+
+| Old File				| New File(s)							|
+| --------------------- | ------------------------------------- |
+| Security.vb			| \Security\CryptographyBase.vb			|
+|						| \Security.Cryptography\AES.vb			|
+|						| \Security.Cryptography\MD5.vb			|
+|						| \Security.Cryptography\SHA512.vb		|
+
+
+This table shows changes name to the name and/or location of a
+namespace, class, or method. The first column shows the original
+namespace name with location (e.g. System.IO.Process.Start). 
+The second column shows the new namespace name with location.
+
+| Old Namespace/Class/Method				| New Namespace/Class/Method								|
+
+| FCM.Client.Security.__SE_Decrypt			| FCM.Security.Cryptography.AES.Decrypt						|
+| FCM.Client.Security.__SE_DecryptF			| FCM.Security.Cryptography.AES.Decrypt						|
+| FCM.Client.Security.__SE_Encrypt			| FCM.Security.Cryptography.AES.Encrypt						|
+| FCM.Client.Security.__SE_EncryptF			| FCM.Security.Cryptography.AES.Encrypt						|
+| FCM.Client.Security.PrintByteArray		| FCM.Security.CryptographyBase.PrintByteArray				|
+| FCM.Client.Security.__S_SHA512F			| FCM.Security.Cryptography.SHA512.GetHashFromFile			|
+| FCM.Client.Security.__S_SHA512			| FCM.Security.Cryptography.SHA512.GetHasFromString			|
+| FCM.Client.Security.__S_MD5				| FCM.Security.Cryptography.MD5.GetHashFromString			|
