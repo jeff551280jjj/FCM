@@ -14,7 +14,7 @@ Namespace Security.Cryptography
             Return Convert.ToBase64String(ByteHash)
         End Function
 
-        Public Shared Function GetGashFromFile(ByVal HashFile As String) As String
+        Public Shared Function GetHashFromFile(ByVal HashFile As String) As String
             Dim Hash = System.Security.Cryptography.SHA512.Create()
 
             ' We declare a variable to be an array of bytes

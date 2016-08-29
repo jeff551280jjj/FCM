@@ -1,4 +1,4 @@
-﻿Imports FCM.Client.FileIO
+﻿Imports FCM.Management.Accounts
 Public Class LoginForm
     Public __PSW As String = ""
     Public __OLDLENGTH As Integer = 1
@@ -23,7 +23,7 @@ Public Class LoginForm
         'For recovery purposes a whiterabbit.obj will be inserted as the form of bypass hexs that will temporarily turn
         'off image hash verification
 
-        If __IO_UserExists(MetroTextBox1.Text) Then
+        If Local.WorkspaceExists(MetroTextBox1.Text) Then
         Else
             Dim CloseResult As MsgBoxResult = MsgBox("Account non-existant, create account?", MsgBoxStyle.Question & MsgBoxStyle.YesNo, "Fire Company Management")
             If CloseResult = MsgBoxResult.No Then
@@ -32,13 +32,9 @@ Public Class LoginForm
                 AddUser.Show()
                 AddUser.UNBox.Text = MetroTextBox1.Text
                 AddUser.MetroTextBox1.Text = MetroTextBox2.Text
-
-
             Else
 
             End If
-
-
         End If
 
 
