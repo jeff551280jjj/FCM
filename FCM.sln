@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FCM.Client", "FCM.Client\FCM.Client.vbproj", "{D7FFAD56-1EF2-4AED-9CFF-CAF7E91D1E5D}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FCM", "FCM.Client\FCM.vbproj", "{D7FFAD56-1EF2-4AED-9CFF-CAF7E91D1E5D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0BF0009E-1F8A-4889-8A13-BC725C48F760} = {0BF0009E-1F8A-4889-8A13-BC725C48F760}
 	EndProjectSection
